@@ -1,3 +1,229 @@
 html {
-  font-size: 36px;
+  /*font-size: 36px;*/
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header p {
+  display: inline;
+}
+
+header p .heavy {
+  font-weight: bold;
+}
+
+header li {
+  display: inline;
+  margin-right: 16px;
+}
+
+#logo {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+/* Common Classes */
+.section_title {
+  text-align: center;
+}
+
+
+/* Jumbotron Section */
+#header_spacer {
+  padding-top: 64px;
+}
+
+.jumbotron {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: lightgray;
+}
+
+.jumbotron img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.jumbotron_text {
+  margin-left: 16px;
+  width: 25%;
+}
+
+.jumbotron_text h1 {
+  font-size: 30px;
+}
+
+.jumbotron_text h2 {
+  padding: 24px 0px;
+}
+
+#jumbotron_btn {
+  width: 100%;
+  color: white;
+  padding: 8px 0px;
+  text-align: center;
+  background-color: darkgray;
+}
+
+
+
+/* About Section */
+.about {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  background-color: white;
+}
+
+#about_left_col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 32px 24px;
+}
+
+#about_left_col img {
+  width: 100%;
+}
+
+#about_right_col {
+  display: flex;
+  flex-direction: column;
+  min-width: 423px;
+  padding: 16px 0px;
+  border-left: 1px solid lightgray;
+}
+
+.about_row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about_row img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.highlight_box {
+  background-color: lightgray;
+}
+
+/* Start Learning Section */
+.start_learn {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: lightgray;
+}
+.course_container {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.course_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course_card {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  width: 350px;
+}
+.course_card img {
+  width: 100%;
+}
+.course_text {
+  background-color: white;
+  padding: 16px;
+  height: 100px;
+}
+
+/*Thesis Section */
+.thesis {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: white;
+}
+
+.thesis_flex {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.thesis video {
+  width: 100%;
+}
+
+#thesis_left_col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 32px 24px;
+}
+
+
+#thesis_right_col {
+  display: flex;
+  flex-direction: column;
+  min-width: 423px;
+  padding: 16px 0px;
+}
+
+.about_row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about_row img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+/*Footer Section */
+footer {
+  background-color: white;
+  color: darkgray;
+  border-top: 1px solid lightgray;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer #copyright {
+  padding-left: 24px;
+}
+
+footer #disclaimers {
+  padding-right: 24px;
+}
+
+footer #disclaimers li {
+  display: inline;
 }
