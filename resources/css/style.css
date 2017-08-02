@@ -23,6 +23,14 @@ dark blue: #2B4873
   align-items: center;
   justify-content: space-between;
 }
+#full_nav a:link,
+#full_nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+#full_nav a:active {
+  color: #5A99F2;
+}
 #full_nav  p {
   font-size: 1.2rem;
   display: inline;
