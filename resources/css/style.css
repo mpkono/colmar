@@ -411,6 +411,9 @@ dark blue: #2B4873
   width: 100%;
   background-color: #94A2B5;
 }
+#thesis_right_col {
+  border: 0;
+}
 
 /* Mobile Thesis Section */
 @media only screen and (max-width: 700px) {
